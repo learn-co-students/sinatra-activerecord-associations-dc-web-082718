@@ -5,3 +5,5 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 run App
+use Rack::MethodOveride
+run UseOwnerController
